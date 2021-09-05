@@ -1,5 +1,9 @@
 // vim:ft=jsonc
 {
+  "suggest.floatConfig": {
+    "border": true,
+    "borderhighlight": "PreProc"
+  },
   "browser.priority": 0,
   "clangd.arguments": ["--header-insertion=never"],
   "cmake.formatter": "cmake-format",
