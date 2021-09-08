@@ -1,5 +1,15 @@
 // vim:ft=jsonc
 {
+  "signature.floatConfig": {
+    "border": true
+  },
+  "diagnostic.floatConfig": {
+    "border": true,
+    "highlight": "PreProc"
+  },
+  "hover.floatConfig": {
+    "border": true
+  },
   "suggest.floatConfig": {
     "border": true,
     "borderhighlight": "PreProc"
