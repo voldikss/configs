@@ -18,6 +18,7 @@ arch_base() {
     sudo pacman -S dconf-editor lsb-release mlocate cgdb proxychains zeal perl-rename vlc fd --noconfirm
     sudo pacman -S spectacle krunner man-pages v2ray peek --noconfirm
     sudo pacman -S wps-office-cn wps-office-mui-zh-cn --noconfirm
+    sudo pacman -S httpie --noconfirm
 
     git clone https://aur.archlinux.org/yay.git
     cd yay
