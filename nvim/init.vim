@@ -1284,6 +1284,7 @@ endfunction
 lua <<EOF
 require('bqf').setup({
   auto_enable = true,
+  auto_resize_height = false,
   preview = {
     win_height = 18,
     win_vheight = 18,
